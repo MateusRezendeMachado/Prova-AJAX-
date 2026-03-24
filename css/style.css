@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4e4e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* caixa do login */
+.login-box {
+    background-color: rgb(114, 114, 114);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+/* campos */
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.campo input {
+    width: 50%;
+    border-radius: 1%;
+    padding: 8px;
+}
+
+/* botão */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* mensagem */
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+}
